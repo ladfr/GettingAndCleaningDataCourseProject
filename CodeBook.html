@@ -174,24 +174,184 @@ pre code {
 <div id="base-data-set" class="section level2">
 <h2>Base data set</h2>
 <p>The base data set is the ‘Human Activity Recognition Using Smartphones Dataset Version 1.0’ See the files README.txt, features_info.txt, features.txt and activity_labels.txt in the UCI HAR Dataset subdirectory.</p>
-<p><code>{r cars} summary(cars)</code></p>
 </div>
-<div id="dataset-harus_means_sd" class="section level2">
-<h2>Dataset harus_means_sd</h2>
-<p>This dataset harus_means_sd includes means and standard deviation for the activities of the Human Activity Recognition Using Smartphones dataset.</p>
+<div id="dataset-x_tbl_mean_std_rc-measurements-on-the-mean-and-standard-deviation-for-each-measurement" class="section level2">
+<h2>Dataset x_tbl_mean_std_rc: Measurements on the mean and standard deviation for each measurement</h2>
+<p>Size: 10,299 x 81</p>
 </div>
 <div id="variables" class="section level1">
 <h1>Variables</h1>
-<div id="dataset-harus_averages" class="section level2">
-<h2>Dataset harus_averages</h2>
-<p>This dataset harus_avg_activities includes the average of each variable for each activity and each subject.</p>
+<p>timebodyaccelerationmeanx numeric<br />
+timebodyaccelerationmeany numeric<br />
+timebodyaccelerationmeanz numeric<br />
+timebodyaccelerationstdx numeric<br />
+timebodyaccelerationstdy numeric<br />
+timebodyaccelerationstdz numeric<br />
+timegravityaccelerationmeanx numeric<br />
+timegravityaccelerationmeany numeric<br />
+timegravityaccelerationmeanz numeric<br />
+timegravityaccelerationstdx numeric<br />
+timegravityaccelerationstdy numeric<br />
+timegravityaccelerationstdz numeric<br />
+timebodyaccelerationjerkmeanx numeric<br />
+timebodyaccelerationjerkmeany numeric<br />
+timebodyaccelerationjerkmeanz numeric<br />
+timebodyaccelerationjerkstdx numeric<br />
+timebodyaccelerationjerkstdy numeric<br />
+timebodyaccelerationjerkstdz numeric<br />
+timebodygyromeanx numeric<br />
+timebodygyromeany numeric<br />
+timebodygyromeanz numeric<br />
+timebodygyrostdx numeric<br />
+timebodygyrostdy numeric<br />
+timebodygyrostdz numeric<br />
+timebodygyrojerkmeanx numeric<br />
+timebodygyrojerkmeany numeric<br />
+timebodygyrojerkmeanz numeric<br />
+timebodygyrojerkstdx numeric<br />
+timebodygyrojerkstdy numeric<br />
+timebodygyrojerkstdz numeric<br />
+timebodyaccelerationmagnitudemean numeric<br />
+timebodyaccelerationmagnitudestd numeric<br />
+timegravityaccelerationmagnitudemean numeric<br />
+timegravityaccelerationmagnitudestd numeric<br />
+timebodyaccelerationjerkmagnitudemean numeric<br />
+timebodyaccelerationjerkmagnitudestd numeric<br />
+timebodygyromagnitudemean numeric<br />
+timebodygyromagnitudestd numeric<br />
+timebodygyrojerkmagnitudemean numeric<br />
+timebodygyrojerkmagnitudestd numeric<br />
+frequncybodyaccelerationmeanx numeric<br />
+frequncybodyaccelerationmeany numeric<br />
+frequncybodyaccelerationmeanz numeric<br />
+frequncybodyaccelerationstdx numeric<br />
+frequncybodyaccelerationstdy numeric<br />
+frequncybodyaccelerationstdz numeric<br />
+frequncybodyaccelerationmeanfrequencyx numeric<br />
+frequncybodyaccelerationmeanfrequencyy numeric<br />
+frequncybodyaccelerationmeanfrequencyz numeric<br />
+frequncybodyaccelerationjerkmeanx numeric<br />
+frequncybodyaccelerationjerkmeany numeric<br />
+frequncybodyaccelerationjerkmeanz numeric<br />
+frequncybodyaccelerationjerkstdx numeric<br />
+frequncybodyaccelerationjerkstdy numeric<br />
+frequncybodyaccelerationjerkstdz numeric<br />
+frequncybodyaccelerationjerkmeanfrequencyx numeric<br />
+frequncybodyaccelerationjerkmeanfrequencyy numeric<br />
+frequncybodyaccelerationjerkmeanfrequencyz numeric<br />
+frequncybodygyromeanx numeric<br />
+frequncybodygyromeany numeric<br />
+frequncybodygyromeanz numeric<br />
+frequncybodygyrostdx numeric<br />
+frequncybodygyrostdy numeric<br />
+frequncybodygyrostdz numeric<br />
+frequncybodygyromeanfrequencyx numeric<br />
+frequncybodygyromeanfrequencyy numeric<br />
+frequncybodygyromeanfrequencyz numeric<br />
+frequncybodyaccelerationmagnitudemean numeric<br />
+frequncybodyaccelerationmagnitudestd numeric<br />
+frequncybodyaccelerationmagnitudemeanfrequency numeric<br />
+frequncybodybodyaccelerationjerkmagnitudemean numeric<br />
+frequncybodybodyaccelerationjerkmagnitudestd numeric<br />
+frequncybodybodyaccelerationjerkmagnitudemeanfrequency numeric<br />
+frequncybodybodygyromagnitudemean numeric<br />
+frequncybodybodygyromagnitudestd numeric<br />
+frequncybodybodygyromagnitudemeanfrequency numeric<br />
+frequncybodybodygyrojerkmagnitudemean numeric<br />
+frequncybodybodygyrojerkmagnitudestd numeric<br />
+frequncybodybodygyrojerkmagnitudemeanfrequency numeric<br />
+subject integer<br />
+activity character</p>
+<p>The values of the numeric variables are between -1 and 1 The values of subject are: 1,2,3,4, … ,28,29,30 The values of activity are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING</p>
+<div id="dataset-x_grouped_means-average-of-each-variable-for-each-activity-and-each-subject" class="section level2">
+<h2>Dataset x_grouped_means: Average of each variable for each activity and each subject</h2>
+<p>Size: 180 x 81 Grouped by: subject, integer</p>
 </div>
 </div>
 <div id="variables-1" class="section level1">
 <h1>Variables</h1>
-<p>You can also embed plots, for example:</p>
-<p><code>{r pressure, echo=FALSE} plot(pressure)</code></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<p>subject integer<br />
+activity character<br />
+meantimebodyaccelerationmeanx numeric<br />
+meantimebodyaccelerationmeany numeric<br />
+meantimebodyaccelerationmeanz numeric<br />
+meantimebodyaccelerationstdx numeric<br />
+meantimebodyaccelerationstdy numeric<br />
+meantimebodyaccelerationstdz numeric<br />
+meantimegravityaccelerationmeanx numeric<br />
+meantimegravityaccelerationmeany numeric<br />
+meantimegravityaccelerationmeanz numeric<br />
+meantimegravityaccelerationstdx numeric<br />
+meantimegravityaccelerationstdy numeric<br />
+meantimegravityaccelerationstdz numeric<br />
+meantimebodyaccelerationjerkmeanx numeric<br />
+meantimebodyaccelerationjerkmeany numeric<br />
+meantimebodyaccelerationjerkmeanz numeric<br />
+meantimebodyaccelerationjerkstdx numeric<br />
+meantimebodyaccelerationjerkstdy numeric<br />
+meantimebodyaccelerationjerkstdz numeric<br />
+meantimebodygyromeanx numeric<br />
+meantimebodygyromeany numeric<br />
+meantimebodygyromeanz numeric<br />
+meantimebodygyrostdx numeric<br />
+meantimebodygyrostdy numeric<br />
+meantimebodygyrostdz numeric<br />
+meantimebodygyrojerkmeanx numeric<br />
+meantimebodygyrojerkmeany numeric<br />
+meantimebodygyrojerkmeanz numeric<br />
+meantimebodygyrojerkstdx numeric<br />
+meantimebodygyrojerkstdy numeric<br />
+meantimebodygyrojerkstdz numeric<br />
+meantimebodyaccelerationmagnitudemean numeric<br />
+meantimebodyaccelerationmagnitudestd numeric<br />
+meantimegravityaccelerationmagnitudemean numeric<br />
+meantimegravityaccelerationmagnitudestd numeric<br />
+meantimebodyaccelerationjerkmagnitudemean numeric<br />
+meantimebodyaccelerationjerkmagnitudestd numeric<br />
+meantimebodygyromagnitudemean numeric<br />
+meantimebodygyromagnitudestd numeric<br />
+meantimebodygyrojerkmagnitudemean numeric<br />
+meantimebodygyrojerkmagnitudestd numeric<br />
+meanfrequncybodyaccelerationmeanx numeric<br />
+meanfrequncybodyaccelerationmeany numeric<br />
+meanfrequncybodyaccelerationmeanz numeric<br />
+meanfrequncybodyaccelerationstdx numeric<br />
+meanfrequncybodyaccelerationstdy numeric<br />
+meanfrequncybodyaccelerationstdz numeric<br />
+meanfrequncybodyaccelerationmeanfrequencyx numeric<br />
+meanfrequncybodyaccelerationmeanfrequencyy numeric<br />
+meanfrequncybodyaccelerationmeanfrequencyz numeric<br />
+meanfrequncybodyaccelerationjerkmeanx numeric<br />
+meanfrequncybodyaccelerationjerkmeany numeric<br />
+meanfrequncybodyaccelerationjerkmeanz numeric<br />
+meanfrequncybodyaccelerationjerkstdx numeric<br />
+meanfrequncybodyaccelerationjerkstdy numeric<br />
+meanfrequncybodyaccelerationjerkstdz numeric<br />
+meanfrequncybodyaccelerationjerkmeanfrequencyx numeric<br />
+meanfrequncybodyaccelerationjerkmeanfrequencyy numeric<br />
+meanfrequncybodyaccelerationjerkmeanfrequencyz numeric<br />
+meanfrequncybodygyromeanx numeric<br />
+meanfrequncybodygyromeany numeric<br />
+meanfrequncybodygyromeanz numeric<br />
+meanfrequncybodygyrostdx numeric<br />
+meanfrequncybodygyrostdy numeric<br />
+meanfrequncybodygyrostdz numeric<br />
+meanfrequncybodygyromeanfrequencyx numeric<br />
+meanfrequncybodygyromeanfrequencyy numeric<br />
+meanfrequncybodygyromeanfrequencyz numeric<br />
+meanfrequncybodyaccelerationmagnitudemean numeric<br />
+meanfrequncybodyaccelerationmagnitudestd numeric<br />
+meanfrequncybodyaccelerationmagnitudemeanfrequency numeric<br />
+meanfrequncybodybodyaccelerationjerkmagnitudemean numeric<br />
+meanfrequncybodybodyaccelerationjerkmagnitudestd numeric<br />
+meanfrequncybodybodyaccelerationjerkmagnitudemeanfrequency numeric<br />
+meanfrequncybodybodygyromagnitudemean numeric<br />
+meanfrequncybodybodygyromagnitudestd numeric<br />
+meanfrequncybodybodygyromagnitudemeanfrequency numeric<br />
+meanfrequncybodybodygyrojerkmagnitudemean numeric<br />
+meanfrequncybodybodygyrojerkmagnitudestd numeric<br />
+meanfrequncybodybodygyrojerkmagnitudemeanfrequency numeric</p>
+<p>The values of the numeric variables are between -1 and 1 The values of subject are: 1,2,3,4, … ,28,29,30 The values of activity are: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING</p>
 </div>
 
 
